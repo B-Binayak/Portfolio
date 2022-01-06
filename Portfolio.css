@@ -1,0 +1,65 @@
+/* Main page style */
+#div1{
+    padding: 20px;
+    color: aqua;
+}
+body{
+    background-color: rgb(3, 3, 3);
+}
+#div2{
+    padding-left: 70px;
+}
+.emag{
+    padding-top: 25%;
+    margin-left: 25%;
+}
+.div3 a{
+    width: 25%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: sticky;
+}
+.div3 a.home{
+    margin-left: 70px;
+    background-color: rgba(42, 243, 243, 0.849);
+    color: white;
+}
+.div3 a:hover{
+    background-color: darkgray;
+    color: aquamarine;
+}
+#dv3{
+    padding-bottom: 8%;
+    padding-top: 5px;
+    margin:10px;
+    border-radius:25%;
+}
+.pp{
+    color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pic{
+    padding-left: 75%;
+    
+}
+#img1{
+    margin: 10px;
+    padding-top: 40px;
+}
+#img2{
+    margin: 10px;
+    padding-top: 40px;
+}
+#img3{
+    margin: 10px;
+    padding-top: 40px;
+}
+#img4{
+    margin: 10px;
+    padding-top: 40px;
+}
+/* About me page Styling onwards */
