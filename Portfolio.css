@@ -20,7 +20,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    position: sticky;
+    border-radius: 5px;
+    margin:10px;
 }
 .div3 a.home{
     margin-left: 70px;
@@ -30,12 +31,6 @@ body{
 .div3 a:hover{
     background-color: darkgray;
     color: aquamarine;
-}
-#dv3{
-    padding-bottom: 8%;
-    padding-top: 5px;
-    margin:10px;
-    border-radius:25%;
 }
 .pp{
     color: #f2f2f2;
