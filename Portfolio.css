@@ -57,6 +57,15 @@ body{
     padding-top: 40px;
 }
 /* Social  media icons style */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+    border-radius: 40%;
+}
 .fa:hover {
     opacity: 0.7;
 }
