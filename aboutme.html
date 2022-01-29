@@ -1,73 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About Me</title>
-        <style>
-            body{
-                background-color: rgb(3, 3, 3);
-            }
-            .div3 a{
-                width: 25%;
-                float: left;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-                margin:10px;
-                border-radius: 5px;
-                margin-left: 20px;
-                margin-bottom: 10px;
-            }
-            .div3 a.aboutme{
-                background-color: rgba(42, 243, 243, 0.849);
-                color: white;
-            }
-            .div3 a.home{
-                margin-left: 70px;
-            }
-            .div3 a:hover{
-                background-color: darkgray;
-                color: aquamarine;
-            }
-            .abtdiv1{
-                color: aqua;
-                text-align: center;
-            }
-            .me{
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <nav>
+
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body {
+            background-color: rgb(3, 3, 3);
+        }
+        
+        .div3 a {
+            width: 25%;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .div3 a.aboutme {
+            background-color: rgba(42, 243, 243, 0.849);
+            color: white;
+        }
+        
+        .div3 a.home {
+            margin-left: 70px;
+        }
+        
+        .div3 a:hover {
+            background-color: darkgray;
+            color: aquamarine;
+        }
+        
+        .abtdiv1 {
+            color: aqua;
+            text-align: center;
+        }
+        
+        .me {
+            text-decoration: underline;
+        }
+        
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 10px 5px;
+            border-radius: 40%;
+        }
+        /* Social  media icons style */
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3b5998;
+            color: white;
+        }
+        
+        .fa-instagram {
+            background-image: linear-gradient(purple, orange);
+            color: white;
+        }
+        
+        .fa-github {
+            background: black;
+            color: white;
+        }
+        
+        .fa-telegram {
+            background: white;
+            color: skyblue;
+        }
+        
+        #lowerdiv {
+            position: relative;
+            bottom: 0px;
+            text-align: center;
+            /* margin-top: 80px; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
         <div class="div3">
             <a class="home" href="portfolio.html">Home</a>
-            <a  class="aboutme" href="#">About Me</a>
-            <a href="contact.html">Contact</a> 
-        </div> 
-        </nav>
-        <div class="abtdiv1">
-            <h2 style="text-decoration: underline;">Everything About me</h2>
-            <p>Name: Binayak Bhattarai</p>
-            <dl>
-                <dt class="me"><h3>Personal info</h3></dt>
-                <dd>Father's Name: Bed Narayan Bhattarai</dd>
-                <dd>Mother's Name: Bhagawati Bhattarai</dd>
-                <dd>Blood group: 'B+ve'</dd>
-            </dl>
-            <dl>
-                <dt class="me"><h3>Address</h3></dt>
-                <dd>Temporary: Narephat,Kathmandu,Nepal</dd>
-                <dd>Permanent: Tilottama-5,Manigram,Rupandehi,Nepal</dd>
-            </dl>
-            <dl>
-                <dt class="me"><h3>Education</h3></dt>
-                <dd>SEE: Shree Shanti N.S School</dd>
-                <dd>+2: Tilottama College</dd>
-                <dd>BEIT: Currently in NCIT,Balkumari</dd>
-            </dl>
-        </div>     
+            <a class="aboutme" href="#">About Me</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="abtdiv1">
+        <h2 style="text-decoration: underline">Everything About me</h2>
+        <p>Name: Binayak Bhattarai</p>
+        <dl>
+            <dt class="me"><h3>Personal info</h3></dt>
+            <dd>Father's Name: Bed Narayan Bhattarai</dd>
+            <dd>Mother's Name: Bhagawati Bhattarai</dd>
+            <dd>Blood group: 'B+ve'</dd>
+        </dl>
+        <dl>
+            <dt class="me"><h3>Address</h3></dt>
+            <dd>Temporary: Narephat,Kathmandu,Nepal</dd>
+            <dd>Permanent: Tilottama-5,Manigram,Rupandehi,Nepal</dd>
+        </dl>
+        <dl>
+            <dt class="me"><h3>Education</h3></dt>
+            <dd>SEE: Shree Shanti N.S School</dd>
+            <dd>+2: Tilottama College</dd>
+            <dd>BEIT: Currently in NCIT,Balkumari</dd>
+        </dl>
+    </div>
+    <div id="lowerdiv">
+        <a href="https://www.facebook.com/B.Binayak07" class="fa fa-facebook" target="blank"></a>
+        <a href="https://www.instagram.com/binayak_b/" class="fa fa-instagram" target="blank"></a>
+        <a href="https://github.com/MrBinayakB" class="fa fa-github" target="blank"></a>
+        <a href="https://telegram.org/" class="fa fa-telegram" target="blank"></a>
+    </div>
+</body>
 
-    </body>
 </html>
