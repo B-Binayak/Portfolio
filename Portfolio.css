@@ -7,7 +7,7 @@ body {
     background-color: rgb(3, 3, 3);
 }
 
-#div2 {
+.div2 {
     padding-left: 70px;
     margin-bottom: 10px;
 }
@@ -52,66 +52,41 @@ body {
 #img1 {
     margin: 10px;
     padding-top: 40px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #img2 {
     margin: 10px;
     padding-top: 40px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #img3 {
     margin: 10px;
     padding-top: 40px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #img4 {
     margin: 10px;
     padding-top: 40px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
-
-/* Social  media icons style */
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 5px;
-    border-radius: 40%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-.fa-instagram {
-    background-image: linear-gradient(purple, orange);
-    color: white;
-}
-
-.fa-github {
-    background: black;
-    color: white;
-}
-
-.fa-telegram {
-    background: white;
-    color: skyblue;
-}
-
-#lowerdiv {
+#top {
+    text-decoration: solid;
+    color: rgb(10, 77, 71);
+    border: 1px solid white;
+    background-color: white;
     position: relative;
-    bottom: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.lowerdiv {
+    height: 65px;
+    width: 100%;
     text-align: center;
+    background-color: rgb(10, 77, 71);
+    padding: 8px, 0px;
 }
