@@ -56,3 +56,29 @@ body{
     margin: 10px;
     padding-top: 40px;
 }
+/* Social  media icons style */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(purple, orange);
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+#lowerdiv {
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+}
