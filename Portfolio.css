@@ -1,18 +1,23 @@
-#div1{
+#div1 {
     padding: 20px;
     color: aqua;
 }
-body{
+
+body {
     background-color: rgb(3, 3, 3);
 }
-#div2{
+
+#div2 {
     padding-left: 70px;
+    margin-bottom: 10px;
 }
-.emag{
+
+.emag {
     padding-top: 25%;
     margin-left: 25%;
 }
-.div3 a{
+
+.div3 a {
     width: 25%;
     float: left;
     color: #f2f2f2;
@@ -21,38 +26,92 @@ body{
     text-decoration: none;
     font-size: 17px;
     border-radius: 5px;
-    margin:10px;
+    margin: 10px;
 }
-.div3 a.home{
+
+.div3 a.home {
     margin-left: 70px;
     background-color: rgba(42, 243, 243, 0.849);
     color: white;
 }
-.div3 a:hover{
+
+.div3 a:hover {
     background-color: darkgray;
     color: aquamarine;
 }
-.pp{
+
+.pp {
     color: #f2f2f2;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-#pic{
+
+#pic {
     padding-left: 75%;
-    
 }
-#img1{
+
+#img1 {
     margin: 10px;
     padding-top: 40px;
+    margin-bottom: 10%;
 }
-#img2{
+
+#img2 {
     margin: 10px;
     padding-top: 40px;
+    margin-bottom: 10%;
 }
-#img3{
+
+#img3 {
     margin: 10px;
     padding-top: 40px;
+    margin-bottom: 10%;
 }
-#img4{
+
+#img4 {
     margin: 10px;
     padding-top: 40px;
+    margin-bottom: 10%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+    border-radius: 40%;
+}
+
+
+/* Social  media icons style */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(purple, orange);
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-telegram {
+    background: white;
+    color: skyblue;
+}
+
+#lowerdiv {
+    position: relative;
+    bottom: 5px;
+    text-align: center;
 }
