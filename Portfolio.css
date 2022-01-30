@@ -75,9 +75,8 @@ body {
 
 #top {
     text-decoration: solid;
-    color: rgb(10, 77, 71);
-    border: 1px solid white;
-    background-color: white;
+    color: white;
+    border: 1px solid rgb(10, 77, 71);
     position: relative;
     margin-bottom: 5px;
     float: right;
